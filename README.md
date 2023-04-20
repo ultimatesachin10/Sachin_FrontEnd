@@ -1,11 +1,11 @@
 # Sachin_FrontEnd
 Steeleye Frontend Engineer Assignment
 
-Q1.Explain what the simple List component does.
+<h2>Q1.Explain what the simple List component does.</h2><br>
 Ans.The simple List component allows for efficient access to elements using their indices. Elements in a list are stored in contiguous memory locations, which makes it easy to access any element in constant time using its index. For example, if you have a list of 10 elements, you can access the 5th element directly without iterating through the list from the beginning.
 The simple List component also supports dynamic sizing, meaning that elements can be added or removed from the list as needed. This makes it a flexible data structure that can be used for a variety of purposes, such as storing collections of data that may change in size over time.
 
-Q2.What problems / warnings are there with code?
+<h2>Q2.What problems / warnings are there with code?</h2><br>
 Ans.There are several issues and warnings with the given code:
 
 1.useState Hook: In the WrappedListComponent, the usage of useState Hook is incorrect. The useState Hook takes an initial state value as an argument and returns an array with two elements - the current state value and a function to update the state. However, in the code, setSelectedIndex is being used as a function to update the state, which is incorrect. It should be const [selectedIndex, setSelectedIndex] = useState(null); to correctly initialize the selectedIndex state variable and the corresponding update function.
@@ -24,7 +24,7 @@ Ans.There are several issues and warnings with the given code:
 
 8.defaultProps: In the WrappedListComponent, the items prop is set to null as the default prop value. However, the correct default value for an array prop should be an empty array ([]) instead of null.
 
-Q3.Please fix, optimize, and/or modify the component as much as you think is necessary.
+<h2>Q3.Please fix, optimize, and/or modify the component as much as you think is necessary.</h2><br>
 Ans.
 
 1.Fixed useState usage: The useState hook should be called with a default value, so I updated useState() to useState(null) to set selectedIndex to null by default.
