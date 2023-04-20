@@ -38,10 +38,10 @@ Ans.
 5.Added keys to list items: In WrappedListComponent, I added a key prop to each SingleListItem component to provide a unique identifier for React to optimize the rendering of the list.
 
 <h2>Output : </h2>
-![image](https://user-images.githubusercontent.com/79250950/233458235-118963c1-a6b3-4f64-afae-7fad141a682b.png)
+<img src = "https://user-images.githubusercontent.com/79250950/233458235-118963c1-a6b3-4f64-afae-7fad141a682b.png" />
 <br>
-![image](https://user-images.githubusercontent.com/79250950/233458312-37d5136a-5642-4192-a64c-59a9fcc744a4.png)
+<img src = "https://user-images.githubusercontent.com/79250950/233458312-37d5136a-5642-4192-a64c-59a9fcc744a4.png" />
 <br>
-![image](https://user-images.githubusercontent.com/79250950/233458369-7764cccb-17fa-4d18-9d2f-840f001325b3.png)
+<img src = "https://user-images.githubusercontent.com/79250950/233458369-7764cccb-17fa-4d18-9d2f-840f001325b3.png" />
 
 
