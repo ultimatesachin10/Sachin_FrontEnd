@@ -36,3 +36,11 @@ Ans.
 4.Optimized event handler: In SingleListItem, onClickHandler was being called with onClickHandler(index) directly, which would immediately invoke the event handler when the component renders. I updated it to () => onClickHandler(index) to pass a function reference to onClick that gets called only when the item is clicked.
 
 5.Added keys to list items: In WrappedListComponent, I added a key prop to each SingleListItem component to provide a unique identifier for React to optimize the rendering of the list.
+
+![image](https://user-images.githubusercontent.com/79250950/233458235-118963c1-a6b3-4f64-afae-7fad141a682b.png)
+<br>
+![image](https://user-images.githubusercontent.com/79250950/233458312-37d5136a-5642-4192-a64c-59a9fcc744a4.png)
+<br>
+![image](https://user-images.githubusercontent.com/79250950/233458369-7764cccb-17fa-4d18-9d2f-840f001325b3.png)
+
+
